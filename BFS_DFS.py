@@ -50,12 +50,10 @@ graph.add_edge(2, 3)
 graph.add_edge(3, 3)
 graph.add_edge(4, 3)
 
-# Perform DFS traversal
 print("DFS traversal:")
 graph.dfs(0)
 print()
 
-# Perform BFS traversal
 print("BFS traversal:")
 graph.bfs(0)
 print()
