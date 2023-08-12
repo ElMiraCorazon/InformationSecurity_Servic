@@ -9,6 +9,7 @@ class Graph:
             self.adjacency_list[vertex1] = []
         if vertex2 not in self.adjacency_list:
             self.adjacency_list[vertex2] = []
+            
         self.adjacency_list[vertex1].append(vertex2)
         self.adjacency_list[vertex2].append(vertex1)
 
@@ -41,7 +42,6 @@ class Graph:
                     queue.append(neighbor)
 
 
-# Create a graph
 graph = Graph()
 graph.add_edge(0, 1)
 graph.add_edge(0, 2)
